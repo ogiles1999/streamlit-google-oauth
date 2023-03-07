@@ -14,5 +14,6 @@ setup(
         "streamlit",
         "httpx-oauth",
         "typing-extensions",
+        "google-auth-ouathlib"
     ],
 )
