@@ -4,3 +4,5 @@ __pycache__
 .DS_Store
 .envrc
 .pyc
+.python-version
+.streamlit/secrets.toml

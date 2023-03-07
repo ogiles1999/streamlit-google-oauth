@@ -1,12 +1,10 @@
 import streamlit as st
-import os
-from dotenv import load_dotenv
 import streamlit_google_oauth as oauth
 
-load_dotenv()
-client_id = os.environ["GOOGLE_CLIENT_ID"]
-client_secret = os.environ["GOOGLE_CLIENT_SECRET"]
-redirect_uri = os.environ["GOOGLE_REDIRECT_URI"]
+creds = st.secrets["oauth-creds"]
+client_id = creds["GOOGLE_CLIENT_ID"]
+client_secret = creds["GOOGLE_CLIENT_SECRET"]
+redirect_uri = creds["GOOGLE_REDIRECT_URI"]
 
 
 if __name__ == "__main__":

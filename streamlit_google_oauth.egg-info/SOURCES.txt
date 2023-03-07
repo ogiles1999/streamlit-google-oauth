@@ -1,0 +1,8 @@
+README.md
+setup.py
+streamlit_google_oauth/__init__.py
+streamlit_google_oauth.egg-info/PKG-INFO
+streamlit_google_oauth.egg-info/SOURCES.txt
+streamlit_google_oauth.egg-info/dependency_links.txt
+streamlit_google_oauth.egg-info/requires.txt
+streamlit_google_oauth.egg-info/top_level.txt
